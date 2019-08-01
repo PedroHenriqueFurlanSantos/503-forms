@@ -1,0 +1,22 @@
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-items: center;
+}
+form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center; 
+    background-color: aqua;
+    margin-top: 35vh;
+    height: 50vh;
+    width: 50vh;
+    border-radius: 10%
+}
+input{
+    height: 30px;
+    width: 30vh;
+     
+}
