@@ -1,22 +1,40 @@
 body{
+    margin: 0;
     display: flex;
     align-items: center;
-    flex-direction: column;
-    justify-items: center;
+    justify-content: center;
+    background-color: blueviolet;
 }
 form{
+    height:70vh;
+    width: 58vh;
     display: flex;
-    align-items: center;
     flex-direction: column;
-    justify-content: center; 
+    align-items: center;
+    justify-content: center;
+    border-bottom: 2px greenyellow solid;
+    background-color:violet;
+    border-radius: 10%;
+    margin-top: 110px;
+}
+div #div{
     background-color: aqua;
-    margin-top: 35vh;
-    height: 50vh;
-    width: 50vh;
-    border-radius: 10%
 }
 input{
-    height: 30px;
-    width: 30vh;
-     
+    margin: 10px;
+    width: 190px;
+}
+form input{
+    border-bottom: 2px greenyellow solid;
+    height:23px;
+    width:60%;
+}
+button{
+    margin: 12px;
+    width:100px;
+    border-bottom: 1px rgb(7, 230, 7) solid;
+}
+h3{
+    color: black;
+    font-size: 30px;
 }
